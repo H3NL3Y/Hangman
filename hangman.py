@@ -51,7 +51,7 @@ def play(word):
 
 #Choose random word.
 
-with open("wordList.txt", "r") as file:
+with open("wordList", "r") as file:
 	allText = file.read()
 	words = list(map(str, allText.split()))
 
